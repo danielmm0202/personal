@@ -1,0 +1,100 @@
+h1{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+h2{
+    /*font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;*/
+    font: 16px bold Georgia 'Times New Roman' Times serif;
+}
+footer, article, hgroup {
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    background-color: #1B3C59;
+    width: 1080px;
+    margin: auto;
+    /*margin-top: 16px;
+    margin-bottom: 16px;*/
+    padding: 16px;
+}
+.header{
+    background: #fd794f;
+    padding: 32px;
+    display: block;
+    border: 1px;
+    /*margin: 64px;*/
+}
+.header h1{
+    text-align: left;
+    padding-left: 16px;
+    color: #F2D5BB;
+}
+.menu{
+    background: #131313;
+    color: #F2D5BB;
+    padding: 8px;
+    text-align: left;
+    margin: 16px 0px;
+}
+.menu li{
+    list-style: none;
+    font: bold 16px 'Times new Roman';
+    display: inline-block;
+    text-align: left;
+}
+.section{
+    /*margin: 16px;*/
+    width: 70%;
+    background: #1B3C59;
+    float: left;
+}
+article{
+    background: #F2A999;
+    padding: 16px;
+    border: solid 1px black;
+    /*margin: 16px 0px;*/
+    margin-bottom: 16px;
+    text-align: left;
+}
+article footer{
+    background: #B0BFB5;
+    margin: auto;
+    text-align: right;
+    padding: 8px;
+}
+time{
+    background: #B0BFB5;
+    margin: 8px;
+}
+.aside{
+    width: 28.5%;
+    height: auto;
+    /*border: 1px;*/
+    /*display: inline-block;*/
+    float: right;
+    background: #F2A999;
+    margin-left: 16px;
+    /*margin-right: 16px;*/
+    margin-bottom: 16px;
+    
+}
+.aside blockquote{
+    border: 1px solid black;
+    padding: 16px;
+    /*margin: 16px;*/
+
+}
+.footer{
+    background: #F28177;
+    clear: both;
+    padding: 8px;
+}
+img{
+    width: 64px;
+}
